@@ -2,14 +2,13 @@
 var containsDuplicate = function(nums) {
     let uniqueSet = new Set();
 
-    for( let num of nums) {
+    for(let num of nums) {
         if(!uniqueSet.has(num)){
             uniqueSet.add(num);
         } else {
             return true;
         }
     }
-
     return false;
 };
 
