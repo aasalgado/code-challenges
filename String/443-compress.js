@@ -23,8 +23,11 @@ var compress = function (chars) {
       }
     }
   }
-
+  console.log(chars);
   return write; // Length of the compressed string
 };
 
-chars = ["a", "a", "b", "b", "c", "c", "c"];
+chars = ["b", "a", "c", "a", "b", "a"];
+console.log(compress(chars));
+
+// two pointer time => O(n) space => O(1)
