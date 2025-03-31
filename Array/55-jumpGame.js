@@ -17,6 +17,7 @@ var canJump = function (nums) {
   return false; // If we can't reach the last index, return false
 };
 
+// greedy algorithm
 // Explanation of the Code:
 // 1. Initialization:
 // We initialize farthest = 0 because initially, the farthest we can reach is index 0.

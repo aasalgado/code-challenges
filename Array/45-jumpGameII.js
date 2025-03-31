@@ -20,6 +20,7 @@ var jump = function (nums) {
   return jumps;
 };
 
+// greedy algorithm
 // Explanation:
 // 1. Variables:
 // jumps: This counts how many jumps we have made to reach the last index.
