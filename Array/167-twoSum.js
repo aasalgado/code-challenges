@@ -5,11 +5,11 @@ var twoSum = function (numbers, target) {
   while (left < right) {
     let sum = numbers[left] + numbers[right];
     if (sum === target) {
-      return [left, right];
+      return [left + 1, right + 1]; // Return 1-indexed positions
     } else if (sum < target) {
-      left++;
+      left++; // Move the left pointer to the right to increase the sum
     } else {
-      right--;
+      right--; // Move the right pointer to the left to decrease the sum
     }
   }
 };
