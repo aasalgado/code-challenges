@@ -37,3 +37,15 @@ ________________________
 741. Cherry Pickup
 1314. Matrix Block Sum
 3393. Count Paths With the Given XOR Value
+
+
+Practice solving a variety of classic DP problems to reinforce these concepts and patterns:
+
+- Knapsack Problem (0/1, Unbounded)
+- Longest Increasing Subsequence (LIS)
+- Coin Change
+- Fibonacci Sequence
+- Longest Common Subsequence (LCS)
+- Edit Distance
+- Partition Problems (e.g., Partition Equal Subset Sum)
+- Matrix Path Problems (e.g., Minimum Path Sum)

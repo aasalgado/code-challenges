@@ -23,3 +23,5 @@ function minCost(costs) {
 
 // time complexity => O(n)
 // space complexity => O(1)
+
+console.log(minCost([[7, 6, 2]]));
