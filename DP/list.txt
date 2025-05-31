@@ -3,7 +3,8 @@
 120. Triangle
 198. House Robber
 416. Partition Equal Subset Sum
-
+1143. Longest Common Subsequence
+509: Fibonacci Number
 ________________________
 
 300. Longest Increasing Subsequence
@@ -21,7 +22,6 @@ ________________________
 72. Edit Distance
 712. Minimum ASCII Delete Sum for Two Strings
 115. Distinct Subsequences
-1143. Longest Common Subsequence
 983. Minimum Cost For Tickets
 132. Palindrome Partitioning II
 647. Palindromic Substrings
@@ -37,6 +37,14 @@ ________________________
 741. Cherry Pickup
 1314. Matrix Block Sum
 3393. Count Paths With the Given XOR Value
+198: House Robber II
+139: Word Break
+
+Fibonacci
+509: Fibonacci Number
+70: Climbing Stairs
+746: Min Cost Climbing Stairs
+1137: N-th Tribonacci Number
 
 
 Practice solving a variety of classic DP problems to reinforce these concepts and patterns:
