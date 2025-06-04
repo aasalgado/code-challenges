@@ -5,6 +5,9 @@
 416. Partition Equal Subset Sum
 1143. Longest Common Subsequence
 509: Fibonacci Number
+70: Climbing Stairs
+322. Coin Change
+746: Min Cost Climbing Stairs
 ________________________
 
 300. Longest Increasing Subsequence
@@ -15,7 +18,6 @@ ________________________
 1048. Longest String Chain
 1049. Last Stone Weight II
 343. Integer Break
-322. Coin Change
 518. Coin Change II
 377. Combination Sum IV
 279. Perfect Squares
