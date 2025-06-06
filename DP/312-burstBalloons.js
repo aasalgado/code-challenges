@@ -1,3 +1,4 @@
+// Hard
 function maxCoins(nums) {
   const n = nums.length;
 
@@ -24,6 +25,8 @@ function maxCoins(nums) {
   // The final answer will be in dp[1][n] which represents the entire array
   return dp[1][n];
 }
+
+// Optimal Substructure, Overlapping Subproblems, Interval DP
 
 // time complexity => O(n^3)
 // space complexity => O(n^2)
