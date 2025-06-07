@@ -10,18 +10,18 @@
 746: Min Cost Climbing Stairs
 1137: N-th Tribonacci Number
 312. Burst Balloons - hard
+279. Perfect Squares
+740. Delete and Earn
 ________________________
 
 300. Longest Increasing Subsequence
 368. Largest Divisible Subset
 673. Number of Longest Increasing Subsequence
-740. Delete and Earn
 1048. Longest String Chain
 1049. Last Stone Weight II
 343. Integer Break
 518. Coin Change II
 377. Combination Sum IV
-279. Perfect Squares
 712. Minimum ASCII Delete Sum for Two Strings
 983. Minimum Cost For Tickets
 647. Palindromic Substrings
