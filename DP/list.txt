@@ -12,9 +12,11 @@
 312. Burst Balloons - hard
 279. Perfect Squares
 740. Delete and Earn
+139: Word Break
+300. Longest Increasing Subsequence
 ________________________
 
-300. Longest Increasing Subsequence
+
 368. Largest Divisible Subset
 673. Number of Longest Increasing Subsequence
 1048. Longest String Chain
@@ -33,7 +35,6 @@ ________________________
 1314. Matrix Block Sum
 3393. Count Paths With the Given XOR Value
 198: House Robber II
-139: Word Break
 87. Scramble String - hard
 887. Super Egg Drop - hard
 354. Russian Doll Envelopes - hard
