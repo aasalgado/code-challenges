@@ -24,6 +24,8 @@ function longestStrChain(words) {
   return longestChain;
 }
 
+// Optimal Substructure, Overlapping Subproblems
+
 // time complexity:  O(n log n + n * k) => O(n * k)  , k is the length of the word
 // space complexity: O(n * k), k for the length of words
 
