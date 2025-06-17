@@ -12,14 +12,17 @@ function uniquePaths(m, n) {
 
 // Optimized version 1D
 function uniquePaths(m, n) {
-  let dp = new Array(n).fill(1);
+  let dp = new Array(n).fill(1); // Initialize the first row with 1s
 
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      dp[j] += dp[j - 1];
+  // Loop through the rows
+  for (let i = 1; i < m; i++) {
+    // Loop through the columns (skip the first column since it's always 1)
+    for (let j = 1; j < n; j++) {
+      dp[j] += dp[j - 1]; // Update dp[j] to represent the number of unique paths to reach dp[j]
     }
   }
 
+  // The last cell in dp is the answer
   return dp[n - 1];
 }
 
