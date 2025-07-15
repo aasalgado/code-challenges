@@ -2,6 +2,22 @@
 
 <!-- Binary Search -->
 
+33 - Search in Rotated Sorted Array
+34 - Find First and Last Position of Element in Sorted Array
+74 - Search a 2D Matrix
+81 - Search in Rotated Sorted Array II
+162 - Find Peak Element
+153 - Find Minimum in Rotated Sorted Array
+154 - Find Minimum in Rotated Sorted Array II
+275 - H-Index II
+287 - Find the Duplicate Number – Search on Answer
+410 - Split Array Largest Sum – Search on Answer
+378 - Kth Smallest Element in a Sorted Matrix
+240 - Search a 2D Matrix II
+875 - Koko Eating Bananas – Search on Answer
+1011 - Capacity To Ship Packages Within D Days
+1283 - Find the Smallest Divisor Given a Threshold
+
 LeetCode 34: Find First and Last Position of Element in Sorted Array
 LeetCode 69: Sqrt(x)
 LeetCode 74: Search a 2D Matrix
