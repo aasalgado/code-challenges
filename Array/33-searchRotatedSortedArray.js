@@ -1,3 +1,4 @@
+// LeetCode 33 - Search Target in Rotated Array
 function search(nums, target) {
   let left = 0,
     right = nums.length - 1;
