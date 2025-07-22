@@ -24,3 +24,32 @@ function findDuplicate(nums) {
 
 // Time	O(n log n)
 // Space   O(1)
+
+// Use binary search over the value range, not the array itself.
+// At each step, count how many values are ≤ mid.
+// If the count is too high, the duplicate is in the lower half.
+// This avoids modifying the array and stays within O(1) space.
+
+// Floyd’s Cycle (Another approach)
+function findDuplicate(nums) {
+  let slow = nums[0];
+  let fast = nums[0];
+
+  // Phase 1: detect cycle
+  do {
+    slow = nums[slow];
+    fast = nums[nums[fast]];
+  } while (slow !== fast);
+
+  // Phase 2: find the entrance to the cycle
+  slow = nums[0];
+  while (slow !== fast) {
+    slow = nums[slow];
+    fast = nums[fast];
+  }
+
+  return slow;
+}
+
+// Time	O(n)
+// Space   O(1)
